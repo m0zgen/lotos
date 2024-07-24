@@ -1,0 +1,34 @@
+# Ignore everything
+# IDE
+.idea
+.DS_Store
+.vscode
+
+# Profiling
+*.prof
+profiles
+
+# Build
+dist
+tools/builds/prev
+tools
+
+# Binaries and generated files
+dolos
+dolos.log
+lotos
+lotos.log
+
+# Exclide prod prefs
+*-prod.yml
+
+# Tests
+users
+logs
+tmp
+new_*
+*download*
+test.conf
+
+# Stay in repo
+!internal/*
